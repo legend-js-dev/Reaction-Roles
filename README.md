@@ -6,7 +6,7 @@
 - Removes The Role once unreacted
 ## info
 - This was a whole remake of [Reaction Roles](https://github.com/TeamTheDevelopers/reaction-roles-bot) bot in quick.db, everything is remade
-- Remade by [legend-js, aka legend-js aka legend.js (me)](https://github.com/legend-js-dev)
+- Remade by [legendjs, aka legend-js aka legend.js (me)](https://github.com/legend-js-dev)
 ## Things you should do
 - Star this repo
 - Fork This Repo
