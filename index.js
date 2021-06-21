@@ -1,4 +1,4 @@
-//reaction role bot coded / FULLY REMADE by legend >:D
+//reaction role bot coded / FULLY REMADE by legendjs >:D
 const Client = require('./Structures/legendJsClient.js');
 const Discord = require('discord.js');
 const { prefix, token } = require('./config.json');
@@ -22,7 +22,7 @@ console.log(`
 
 console.log('-------------------------------------');
 console.log(
-	'[CREDITS]: made / remade by legend-js | https://github.com/legend-js-dev | LΣGΣПD#0001'
+	'[CREDITS]: made / remade by legend-js | https://github.com/legend-js-dev | legendjs#0001'
 );
 console.log('-------------------------------------');
 //this took me some time so dont you dare remove credits, if u do remove credits then you will have copy right issues.
@@ -34,7 +34,7 @@ client.on('ready', () => {
 		} channels & ${client.users.cache.size} users`
 	);
 	console.log('-------------------------------------');
-	client.user.setActivity('reaction role bot by legend :D', {
+	client.user.setActivity('reaction role bot by legendjs :D', {
 		type: 'WATCHING'
 	});
 });
