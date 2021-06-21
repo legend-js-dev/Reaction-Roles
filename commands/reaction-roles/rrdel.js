@@ -27,7 +27,7 @@ let embed = new Discord.MessageEmbed()
 embed.setAuthor(message.guild.name, message.guild.iconURL())
 embed.setTitle("Error")
 embed.setDescription(`:x: | **Reaction Roles not Found!**`)
-embed.setFooter(message.author.tag + " | made by LΣGΣПD#0001", message.author.displayAvatarURL({ dynamic: true }));
+embed.setFooter(message.author.tag + " | made by legendjs#0001", message.author.displayAvatarURL({ dynamic: true }));
 embed.setTimestamp()
 embed.setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
 if (!data) return message.channel.send(
@@ -44,7 +44,7 @@ db.set(`reactions_${message.guild.id}_${msg.id}`, filter)
 let embed2 = new Discord.MessageEmbed()
 embed2.setAuthor(message.author.tag, message.author.displayAvatarURL())
 embed2.setDescription(`**The Reaction Role has been deleted!** `)
-embed2.setFooter(message.guild.name + " | made by LΣGΣПD#0001", message.guild.iconURL());
+embed2.setFooter(message.guild.name + " | made by legendjs#0001", message.guild.iconURL());
 embed2.setColor("GREEN")
 embed2.setTimestamp()
 return message.channel.send(
@@ -57,7 +57,7 @@ let embed = new Discord.MessageEmbed()
 embed.setAuthor(message.guild.name, message.guild.iconURL())
 embed.setTitle("Error")
 embed.setDescription(`:x: | **Reaction Roles not Found!**`)
-embed.setFooter(message.author.tag + " | made by LΣGΣПD#0001", message.author.displayAvatarURL({ dynamic: true }));
+embed.setFooter(message.author.tag + " | made by legendjs#0001", message.author.displayAvatarURL({ dynamic: true }));
 embed.setTimestamp()
 embed.setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
 return message.channel.send(
