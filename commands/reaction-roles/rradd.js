@@ -28,7 +28,7 @@ if (pog && pog.find((x) => x.emoji == args[3])) {
             embed.setAuthor(message.guild.name, message.guild.iconURL())
             embed.setTitle("Error")
             embed.setDescription(`:x: | **The emoji is already being used in The message for reaction Roles!**`)
-            embed.setFooter(message.author.tag + " | made by LΣGΣПD#0001", message.author.displayAvatarURL({ dynamic: true }));
+            embed.setFooter(message.author.tag + " | made by legendjs#0001", message.author.displayAvatarURL({ dynamic: true }));
             embed.setTimestamp()
             embed.setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
             return message.channel.send({
@@ -46,7 +46,7 @@ let embed = new Discord.MessageEmbed()
         embed.setTitle("Success")
         embed.setThumbnail(message.guild.iconURL())
         embed.setDescription(`**The Reaction Role has been Set up**`)
-        embed.setFooter(message.author.tag + " | made by LΣGΣПD#0001", message.author.displayAvatarURL({ dynamic: true }))
+        embed.setFooter(message.author.tag + " | made by legendjs#0001", message.author.displayAvatarURL({ dynamic: true }))
         embed.setColor("RANDOM")
         embed.setTimestamp()
         message.channel.send({
